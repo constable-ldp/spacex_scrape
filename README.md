@@ -5,8 +5,9 @@ Simple script to scrape the SpaceX API returning the latest launch information. 
 # Requirments
 
 pandas
+
 requests
 
-#To run
+# To run
 
 python3 SpaceX_scrape.py
