@@ -25,8 +25,8 @@ def get_data():
         ship_type.append(ship_json['type'])
         ship_port.append(ship_json['home_port'])
     #launch data specified as lists for formatting the dataframe, as they are always single entries
-    launch_data = {'Launch Name': [launch_name], 'Date': [launch_date], 'Details': [launch_details]}
-    ship_data = {'Ship Name': ship_name, 'Ship Type': ship_type, 'Ship Home Port': ship_port}
+    launch_data = {'Name': [launch_name], 'Date': [launch_date], 'Details': [launch_details]}
+    ship_data = {'Name': ship_name, 'Type': ship_type, 'Home Port': ship_port}
     return launch_data, ship_data
 
 def main():
